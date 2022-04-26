@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+body{
+    background-image: url("65.png");
+    background-size: 600px 300px;
+}
+#menu{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    width: auto;
+    display: flex;
+    
+       
+
+}
+#title{
+    transition: margin-top 0.3s;
+    font-family:'Montserrat Alternates';
+    color: rgb(201, 228, 255);
+    margin-top: 10px;
+    margin-left: 15px;
+    float: left;
+    width: 300px;
+    
+}
+#sou{
+    font-family: 'dancing script';
+    color: white;
+    margin-left: -15px;
+    display: inline;
+}
+#title2{
+    
+    font-family: 'poiret one';
+    color: white;
+    font-size: 45px;
+    margin-left: 300px;
+    text-shadow: white 0px 0px 10px;
+    height: 100%;
+    width: 300px;
+    margin-top: 8px;
+    transition: margin-top 0.3s;
+
+   
+}
+#about{
+    transition: margin-top 0.5s;
+    font-family: 'poppins';
+    font-weight: 400;
+    color: rgb(84, 255, 147);
+    text-decoration:underline;
+    margin-top: 15px;
+    margin-left: 200px;
+    
+}
+#version{
+    transition: margin-top 0.5s;
+    font-family: 'fredoka';
+    color: rgb(255, 0, 174);
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 18px;
+}
+#title:hover{
+  margin-top: 5px;
+  
+}
+#title2:hover{
+    margin-top: 5px;
+
+}
+#about:hover{
+    margin-top: 10px;
+
+}
+#version:hover{
+    margin-top: 13px;
+
+}
